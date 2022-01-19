@@ -13,4 +13,8 @@ const api = axios.create({
     baseURL: baseUrl,
 });
 
-export {api, initalPoksUrl, pokeImage};
+const getPokeData = axios.create({
+    baseURL: baseUrl+'pokemon/',
+})
+
+export {api, initalPoksUrl, pokeImage, getPokeData};

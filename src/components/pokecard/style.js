@@ -3,7 +3,8 @@ import { StyleSheet, Dimensions } from "react-native";
 
 const {width, height} = Dimensions.get("window");
 
-const pokecardStyle = StyleSheet.create({
+
+const pokecardStyle = (props) => StyleSheet.create({
     viewPai: {
         height: height *.31,
         width: width / 2,
@@ -13,19 +14,22 @@ const pokecardStyle = StyleSheet.create({
     container: {
         height: height * .28,
         width: width / 2.1,
-        backgroundColor: 'rgba(255,0,0,0.4)',
         borderRadius: 20,
+        borderColor: 'white',
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: props,
     },
     pkmImage:{
         width: '80%',
         height: '75%',
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: 'rgba(255,255,255,0.5)',
+        borderRadius: 100,
     },
     pkmName: {
-        color: 'white',
+        color: 'black',
         fontSize: height * .035,
         paddingTop: 5,
         fontFamily: 'dongle_bold',
