@@ -12,7 +12,7 @@ class Home extends React.Component{
         return (
             <View style={homeStyle.screenContainer}>
                 <this.UpSide />
-                <Pokelist/>
+                <Pokelist navigator={this.props.navigation}/>
             </View>
         );
     }

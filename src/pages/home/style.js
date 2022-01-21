@@ -6,7 +6,7 @@ const {height, width} = Dimensions.get("window");
 const homeStyle = StyleSheet.create({
     screenContainer: {
         flex: 1,
-        backgroundColor: 'white',
+        backgroundColor: 'black',
     },
     upside: {
         width: '100%',

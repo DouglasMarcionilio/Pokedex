@@ -29,7 +29,7 @@ const pokecardStyle = (props) => StyleSheet.create({
         borderRadius: 100,
     },
     pkmName: {
-        color: 'black',
+        color: 'white',
         fontSize: height * .035,
         paddingTop: 5,
         fontFamily: 'dongle_bold',

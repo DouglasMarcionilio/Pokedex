@@ -34,7 +34,7 @@ class Pokelist extends React.Component{
                         data={this.state.poks}
                         numColumns={2}
                         renderItem={({item}) => (
-                            <Pokecard dados={item}/>
+                            <Pokecard dados={item} navigation={this.props.navigator}/>
                         )}
                     />
                 </View>
