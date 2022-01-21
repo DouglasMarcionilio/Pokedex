@@ -44,8 +44,8 @@ const style = (props) => StyleSheet.create({
     },
     nameMovesView: {
         width: '100%',
-        height: '20%',
-        justifyContent: "center",
+        height: '15%',
+        justifyContent: "flex-end",
         alignItems: "center",
     },
     nameStyle: {
@@ -72,28 +72,70 @@ const style = (props) => StyleSheet.create({
         fontWeight: "bold",
     },
     pesoAlturaView: {
-        width: '100%',
+        width: '70%',
         height: '10%',
         flexDirection: "row",
-        justifyContent: "center",
+        justifyContent: "space-around",
         alignItems: "center",
+        alignSelf:"center"
     },
     viewTitleSub: {
-        justifyContent: "center",
+        justifyContent: "space-around",
         alignItems: "center",
-        marginLeft: 7,
-        marginRight: 7,
     },
     title:{
         color: 'white',
         fontWeight: "bold",
-        fontSize: 20,
+        fontSize: 23,
         fontFamily: 'dongle_bold',
     },
     subTitle: {
         color: 'gray',
-        fontSize: 18,
+        fontSize: 21,
         fontFamily: 'dongle_bold',
+    },
+    statusView: {
+        flex: 1,
+    },
+    statsTitle: {
+        color: 'white',
+        fontWeight:"bold",
+        fontSize: 23,
+        alignSelf: "center",
+    },
+    detailedStatsView: {
+        height: '40%',
+        marginTop: 15,
+        justifyContent: "space-around",
+        alignItems: "center",
+    },
+    statsView: {
+        flexDirection: "row",
+    },
+    statsName: {
+        color: 'white',
+        fontWeight: "bold",
+        fontFamily: 'dongle_bold',
+        marginRight: 10,
+    },
+    valuesView: {
+        width: '70%',
+        height: '65%',
+        backgroundColor: 'white',
+        borderRadius: 20,
+        marginLeft: 10
+    },
+    value: {
+        flex: 1,
+        borderRadius: 20,
+        alignItems: "flex-end",
+        justifyContent: "center",
+    },
+    textValue: {
+        color: 'black',
+        fontWeight: "bold",
+        fontSize: 10,
+        marginEnd: 10,
     }
 });
 

@@ -61,6 +61,7 @@ class Pokecard extends React.Component{
             bgColor: this.bgColor()[this.state.type],
             image: this.imageUrl(),
             name: this.capitalize(),
+            nav: this.props.navigation,
         });
     }
 
