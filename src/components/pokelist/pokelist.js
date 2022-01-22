@@ -40,7 +40,6 @@ class Pokelist extends React.Component{
     render(){
         if(this.state.poks.length === 0){
             this.getPoks();
-            console.log('state poks primeiro: '+this.state.poks);
             return (
                 <ActivityIndicator size='large' />
             );

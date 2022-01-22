@@ -8,7 +8,6 @@ class Details extends React.Component{
     //this.props.route.params.pokeDados.name
 
     TypesCard(dados){
-        console.log(dados.dados.length);
         if(dados.dados.length === 1){
             return (
                 <View style={style().typeView}>
