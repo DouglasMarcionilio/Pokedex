@@ -92,11 +92,11 @@ class Details extends React.Component{
                 </View>
                 <View style={style().pesoAlturaView}>
                     <View style={style().viewTitleSub}>
-                        <Text style={style().title}>{this.props.route.params.pokeDados.weight} KG</Text>
+                        <Text style={style().title}>{this.props.route.params.pokeDados.weight / 10} KG</Text>
                         <Text style={style().subTitle}>Weight</Text>
                     </View>
                     <View style={style().viewTitleSub}>
-                        <Text style={style().title}>{this.props.route.params.pokeDados.height} M</Text>
+                        <Text style={style().title}>{this.props.route.params.pokeDados.height / 10} M</Text>
                         <Text style={style().subTitle}>Height</Text>
                     </View>
                 </View>
